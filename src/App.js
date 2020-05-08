@@ -11,7 +11,7 @@ function App() {
     <Layout>
         <Header className="header-color" title="Title" scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume">Resume</Link> #Add updated resume
                 <Link to="/aboutme">About ME</Link>
                 <Link to="/project">Projects</Link>
                 <Link to="/contact">Contact</Link>
