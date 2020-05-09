@@ -1,6 +1,54 @@
-.header-color {
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body {
+  margin: 0;
+  padding: 0;
+  position:relative;
+  font-family: 'Poppins', sans-serif;
+  background:#EDECE9;
+  color: #081E2D !important;
 }
 
+nav{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:5px 20px 5px 0px;
+  background:#fff;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+  /* width: 100%; */
+}
+
+.menu-item{
+  display:inline-block;
+  margin-left:15px;
+}
+
+ul .menu{
+  text-transform: capitalize ;  
+}
+
+
+a{
+  text-decoration: none; 
+  
+}
+ul,li{
+  text-transform: capitalize !important;
+}
+
+.logo{
+  display:inline-block;
+  width:70px;
+  height:70px;
+}
+.logo img{
+  max-width:100%;
+  height:auto;
+}
+
+ul .menu{
+  text-transform: capitalize ;
+}
